@@ -17,13 +17,13 @@ enum Colors
 
 std::string set_color_output(const int color, const std::string& to_add);
 
-enum Modes
+enum Styles
 {
     NORMAL = 0,
     BOLD,
     UNDERLINE = 4,
 };
 
-std::string set_mode(const int mode);
+std::string set_style(const int mode);
 
 #endif
