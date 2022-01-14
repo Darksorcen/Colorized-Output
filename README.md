@@ -6,7 +6,7 @@
 
 ## How to use it ?
 #### Very simple look at "example.cpp"
-#### ``` 
-> set_color_output()
-#### ``` 
+``` 
+   set_color_output()
+``` 
 
