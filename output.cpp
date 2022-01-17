@@ -12,7 +12,7 @@ std::string set_color_output(const int color, const std::string& to_add)
 }
 
 // A function that will return a string with a specific style
-// style : a constant that will define the style to output (see enum Modes)
+// style : a constant that will define the style to output (see enum Styles)
 std::string set_style(const int style)
 {
     return "\033["+std::to_string(style)+";"+std::to_string(WHITE)+"m";
